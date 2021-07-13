@@ -6,7 +6,7 @@
 
 
                                 
-@import "../typography.css";
+@import "../../css/fontawesome/typography.css";
 .primary_theme_color{
     color: #e26224;
 }
