@@ -1,2 +1,1 @@
-# vedantpaynew
-Vedant Pay New Version
+# vedantpay
