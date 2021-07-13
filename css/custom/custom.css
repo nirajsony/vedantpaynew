@@ -76,6 +76,10 @@ body{
    padding-right: 0!important;
 }
 
+.padding15{
+  padding: 0 15px 0 15px;
+}
+
 .slideimg{
   
   background-size: 100% 100%;
@@ -86,6 +90,44 @@ body{
   text-align: left;
   list-style-type: none;
   
+}
+#bcmrtrl{
+  background: linear-gradient(to left, #e26224 , #f78b21);
+  padding: 15px 0 28px;
+  color: #fff;
+}
+
+.btn-white{
+  
+    background: white;
+    color: chocolate;
+
+}
+
+.btn-red{
+  background: #ff0018;
+    color: #fbfbfd;
+}
+
+#bcmrtrl h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+  width: 100%;
+  height: 10px;
+  filter: blur(20px);
+  border-radius: 30px;
+  display: inline-block;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
 }
 
 
@@ -129,14 +171,6 @@ body{
   font-weight: 800;
 }
 
-.whytitle{
-  color: #fff;
-  text-shadow: none;
-  text-align: center;
-  margin-top: 0.8rem;
-  padding: 5px 0 5px 0;
-  font-weight: 800;
-}
 
 
 
@@ -187,14 +221,6 @@ body{
 }
 
 
-.topbar_left{
-    padding-left: 20px;
-}
-
-.topbar_right{
-    text-align: right;
-    padding-right: 20px;
-}
 
 a:hover {
     color: #e26224;
@@ -207,24 +233,9 @@ a:hover {
     color: #ffffff;
 }
 
-.topbar_right a{
-    color: #ffffff;
-    font-size: 0.8rem;
-    padding: 0 3px 0 3px;
-}
-.topbar_right a i{
-    font-size: 0.9rem;
-   
-}
 
-.marqBox{
-  vertical-align: middle;
-    height: 28px;
-}
 
-.marqBox marquee{
-  padding-top: 4px;
-}
+
 
 .navbg {
   transition-duration: 00.2s;
@@ -264,17 +275,6 @@ a:hover {
         height: auto;
         
     }
-.topbar_left{
-    text-align: center;
-    -webkit-text-size-adjust: auto;
-    padding-left: 12px;
-}
-
-.topbar_right{
-    text-align: center;
-    -webkit-text-size-adjust: auto;
-    padding-right: 12px;
-}
 
 .footrcontent{
   padding: 0 1rem 0 1rem;
@@ -344,6 +344,8 @@ a:hover {
     }
     
 }
+
+
  /* *************************************Media query END****************************************** */
 
 
@@ -1005,12 +1007,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .new_footer_top .footer_bg .footer_bg_one {
   background: url(../../images/background/car.gif) no-repeat center center;
-  width: 330px;
-  height: 105px;
-background-size:100%;
+  width: 120px;
+  height: 155px;
+  background-size: 100%;
   position: absolute;
   bottom: 0;
   left: 30%;
+  transform: scaleX(-1);
   -webkit-animation: myfirst 22s linear infinite;
   animation: myfirst 22s linear infinite;
 }
