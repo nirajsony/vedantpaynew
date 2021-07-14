@@ -3,10 +3,21 @@
   background-color: #f78b1f;
   font-size: 20px;
 }
+.btn-font-sz{
+  
+}
 
 /* Button with Outline */
 .btn-no-bg {
   border-color: #f78b1f;
+}
+
+.btn-input-hight{
+  height: 50px;
+}
+
+.btn-no-bg:hover{
+  background-color: #f78b1f;
   font-size: 20px;
 }
 
@@ -67,6 +78,10 @@
 .card-img-height-width{
   width: 129px;
   height: 116;
+}
+
+.bg-card-corp{
+  background-color: #f7f7f7!important;
 }
 
 /*
