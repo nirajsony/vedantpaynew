@@ -51,6 +51,27 @@ body{
     background-color: #fff;
 }
 
+.font3{
+  font-size: 3rem;
+}
+
+.slideul li{
+
+  float: right;
+  margin: 0 12px 0 12px;
+  
+}
+
+.pad15 button{
+  margin-top: 15px;
+}
+
+.m-top15{
+  margin-top: 15px;
+}
+
+
+
 
 .navbar-light .navbar-nav .nav-link {
   color: #858da8;
@@ -58,8 +79,8 @@ body{
 }
 
 .logosize{
-    height: 56px;
-    width: auto;
+  height: 40px;
+  width: 150px;
 }
 
 .margin0{
@@ -78,6 +99,10 @@ body{
 
 .padding15{
   padding: 0 15px 0 15px;
+}
+
+.paddingtopbot{
+  padding: 15px 0 15px 0;
 }
 
 .slideimg{
@@ -144,7 +169,7 @@ body{
 
 
 .bg-light{
-    background-color:#fbfbfb!important
+    background-color:#fff !important
 }
 
 .loginbtn{
@@ -241,7 +266,7 @@ a:hover {
   transition-duration: 00.2s;
   transition-timing-function: ease;
   transform-style: preserve-3d;
-  border-bottom: 1px solid #e26224;
+  border-bottom: 3px solid #e26224;
 }
 
 .tagline{
@@ -250,6 +275,38 @@ a:hover {
   top: 58%;
   font-size: 16px;
 }
+
+/* menu text color */
+.navbar-light .navbar-nav .nav-link {
+  color: #212325;
+  font-weight: 800;
+}
+#rc-sm > li a{
+  color: #343a40;
+  font-weight: 600;
+}
+
+/* Menu active color */
+.active{
+  color: rgb(226 98 36);
+  border-bottom: 2px solid #e26224;
+}
+.active a{
+  color: rgb(226 98 36) !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(226 98 36);
+  border-bottom: 2px solid #e26224;
+}
+
+/* retail corporate menu */
+.mr-l-15{
+  margin-left: 20px;
+}
+.mr-r-15{
+  margin-right: 20px;
+}
+
 
 /* services */
 .srvcimg{
@@ -261,10 +318,19 @@ a:hover {
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
 
-  .whyimg{
-    width: 350px !important;
+/* retail corporate menu */
+  .sm-mrg-10{
+    margin-top: 10px !important;
   }
+  #rc-sm{
+    display: -webkit-box !important;
+  }
+  #rc-sm > li{
+    float: right !important;
+  }
+  /* retail corporate menu */
 
+ 
   .srvcimg {
     position: relative;
     left: 0 !important;
@@ -314,9 +380,7 @@ a:hover {
   
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-    body {
-        /* background-color: blue; */
-    }
+   
     .footrcontent{
       padding: 0 4rem 0 4rem;
     }
@@ -497,9 +561,7 @@ a:hover {
   padding: 40px;
 }
 
-.pad15{
-  padding: 0 15px 0 15px;
-}
+
 
   /* Bar loader*/
 
