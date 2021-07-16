@@ -352,6 +352,10 @@ a:hover {
     padding: 5px 10px;
 }
 
+.icon-color-for-services{
+  color: #4D004C;
+}
+
 /* ***********************************Media Query for all pages Begin******************************************** */
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
