@@ -105,10 +105,21 @@ body{
   padding: 15px 0 15px 0;
 }
 
-.slideimg{
-  
-  background-size: 100% 100%;
+.retailer{
+  border-radius: 75px;
+    padding: 15px;
 }
+.global_ret_btn_white{
+  background: white !important;
+    color: #e26224 !important;
+    text-shadow: 0px 1px 1px #7a2d08;
+    width: 100%;
+}
+.global_ret_btn{
+  width: 100%;
+}
+
+
 
 .slideul{
   text-decoration: none;
@@ -158,15 +169,38 @@ body{
 
 .carousel-item img {
   width: inherit;
-  height: 550px !important;
 }
 
+.carousel-item{
+  max-height: 550px;
+}
 .carousel-caption {
-  
   top: 20%;
-  
 }
 
+.slider-caption{
+  width: 100%;
+}
+.wd100{
+  width: 100%;
+}
+#car-servc > a{
+  padding: 15px;
+}
+
+.text-responsive-slider{
+  position: relative;
+  top: 15%;
+}
+
+.subtextslider{
+  color: black;
+padding: 0 6em 0 6em;
+}
+
+#car-servc > a{
+  border-bottom: 0 !important;
+}
 
 .bg-light{
     background-color:#fff !important
@@ -184,6 +218,14 @@ body{
   border-radius: 2px;
   color: white !important;
   padding: .3rem 1rem .3rem 1rem !important;
+}
+
+.btnborder{
+  border: 1px solid #e26224;
+  border: 1px solid #e26224;
+    width: 80%;
+    color: #d55618;
+    font-weight: 600;
 }
 
 .section-title{
@@ -214,10 +256,7 @@ body{
     height:550px;
 }
 
- .carousel-item img{
- width: inherit;
-    height: -webkit-fill-available;
-}
+
 .spacemark{
     padding: 11px 5px 0px 5px;
     background-color: #e26224;
@@ -287,12 +326,9 @@ a:hover {
 }
 
 /* Menu active color */
-.active{
-  color: rgb(226 98 36);
-  border-bottom: 2px solid #e26224;
-}
 .active a{
   color: rgb(226 98 36) !important;
+  border-bottom: 2px solid #e26224;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: rgb(226 98 36);
@@ -309,15 +345,42 @@ a:hover {
 
 
 /* services */
-.srvcimg{
-  position: relative;
-  left: 15%;
+#txtsrvc p{
+
+  background: #e26224;
+    color: #fff;
+    padding: 5px 10px;
 }
 
 /* ***********************************Media Query for all pages Begin******************************************** */
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
 
+  /* slider content text */
+  .carousel-item{
+    max-height: max-content;
+  }
+
+  .carousel-inner {
+    height: auto;
+}
+
+.subtextslider{
+  padding: 0 !important;
+}
+
+.text-responsive-slider {
+  position: relative;
+  top: 0;
+  padding: 35px;
+}
+
+#car-servc > a {
+  padding: 15px;
+  text-align: left;
+  display: table-row;
+}
+ /* slider content text */
 /* retail corporate menu */
   .sm-mrg-10{
     margin-top: 10px !important;
@@ -356,6 +419,16 @@ a:hover {
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
+
+  .subtextslider{
+    padding: 0 5px 0 5px !important;
+  }
+  
+  .text-responsive-slider{
+    position: relative;
+    top: 5%;
+  }
+
     .info_div {
         height: auto;
         
@@ -380,7 +453,17 @@ a:hover {
   
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-   
+  
+  .subtextslider{
+    padding: 0 15px 0 15px !important;
+  }
+  
+
+  .text-responsive-slider{
+    position: relative;
+    top: 0;
+  }
+
     .footrcontent{
       padding: 0 4rem 0 4rem;
     }
