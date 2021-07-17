@@ -213,7 +213,7 @@ padding: 0 6em 0 6em;
 
 .loginbtn{
     background-color: #e26224;
-    border-radius: 22px;
+    border-radius: 3px;
     color: white !important;
     padding: .3rem 1rem .3rem 1rem !important;
 }
@@ -367,12 +367,15 @@ a:hover {
   color: #4D004C;
 }
 
-.com
+
 
 /* ***********************************Media Query for all pages Begin******************************************** */
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
 
+  .loginbtn{
+    width: 30%;
+  }
   /* slider content text */
   .carousel-item{
     max-height: max-content;
@@ -427,11 +430,14 @@ a:hover {
   -webkit-text-size-adjust: auto;
 }
 
-}
+ }
+ 
 
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
+
+
 
   .subtextslider{
     padding: 0 5px 0 5px !important;
@@ -1593,7 +1599,13 @@ ul.cd-author-info li span {
 	}
 }
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+
+  .loginbtn{
+    width: 30%;
+  }
+}
+
 
 .flex-direction-nav a {
 	text-decoration: none;
