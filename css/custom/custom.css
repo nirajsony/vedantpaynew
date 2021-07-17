@@ -111,7 +111,7 @@ body{
 }
 
 .retailer{
-  border-radius: 75px;
+  border-radius: 5px;
     padding: 15px;
 }
 .global_ret_btn_white{
@@ -122,6 +122,13 @@ body{
 }
 .global_ret_btn{
   width: 100%;
+}
+
+.img-distributor{
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
