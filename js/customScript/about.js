@@ -4,7 +4,7 @@ $.js = function (el) {
 
 function carousel() {
 $.js('timeline-carousel').slick({
-  infinite: false,
+  infinite: true,
   arrows: true,
    arrows: true,
   prevArrow: '<div class="slick-prev"> <div class="btn"> <svg class="ml-1" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 24 24;" xml:space="preserve"> <path d="M10.1,19.1l1.5-1.5L7,13h14.1v-2H7l4.6-4.6l-1.5-1.5L3,12L10.1,19.1z"/> </svg></div></div>',
