@@ -22,10 +22,11 @@
 }
 .timeline-carousel:after {
   left: 0;
+  background: white;
 }
 .timeline-carousel:before {
   right: 0;
-  opacity: 0;
+  background: white;
 }
 .timeline-carousel .slick-list {
   overflow: visible;
@@ -259,9 +260,9 @@
 color: #e26224;
 border-radius: 10px;
 background-color: rgba(245, 245, 245, 1);
-transition: 0.5s;
+transition: 0.3s;
 }
 .f18{
-  font-size: 22px;
-  font-weight: 1000;
+  font-size: 15px!important;
+  font-weight: 600;
 }
