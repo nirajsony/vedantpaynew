@@ -11,8 +11,8 @@ $.js('timeline-carousel').slick({
   nextArrow: '<div class="slick-next"> <div class="btn" > <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"> <path d="M 14 4.9296875 L 12.5 6.4296875 L 17.070312 11 L 3 11 L 3 13 L 17.070312 13 L 12.5 17.570312 L 14 19.070312 L 21.070312 12 L 14 4.9296875 z"/> </svg></div></div>',
   dots: false,
   autoplay: true,
-  speed: 1000,
-  slidesToShow: 4,
+  speed: 800,
+  slidesToShow: 2,
   slidesToScroll: 2,
   responsive: [
     {

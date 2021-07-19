@@ -250,3 +250,16 @@
   right: 30px;
 
 }
+
+
+.card_hover:hover{
+  color: #e26224;
+border-radius: 10px;
+background-color: #FEBF63;
+ box-shadow: 8px 8px 8px 0px #fec063d7;
+transition: 0.5s;
+}
+.f18{
+  font-size: 22px;
+  font-weight: 1000;
+}
