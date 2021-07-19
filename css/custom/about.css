@@ -236,7 +236,6 @@
   top: 0;
   z-index: 9999;
   border-radius: 0;
-  font-family: 'Libre Franklin', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
@@ -250,13 +249,16 @@
   right: 30px;
 
 }
+.card_size{
+  height: 235px;
+   margin: 10px;
 
+}
 
 .card_hover:hover{
-  color: #e26224;
+color: #e26224;
 border-radius: 10px;
-background-color: #FEBF63;
- box-shadow: 8px 8px 8px 0px #fec063d7;
+background-color: rgba(245, 245, 245, 1);
 transition: 0.5s;
 }
 .f18{
