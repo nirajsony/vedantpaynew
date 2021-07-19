@@ -131,8 +131,6 @@ body{
   margin-left: auto;
 }
 
-
-
 .slideul{
   text-decoration: none;
   text-align: left;
@@ -149,7 +147,6 @@ body{
   
     background: white;
     color: chocolate;
-
 }
 
 .btn-red{
@@ -177,7 +174,6 @@ body{
   z-index: -1;
   transition: all 0.3s ease-out 0s;
 }
-
 
 .carousel-item img {
   width: inherit;
